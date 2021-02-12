@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+
+:root{
+    --mainColor : red(0, 174, 255);
+    --secondaryColor: Maroon;
+}
+
+::selection{
+    background-color: var(--mainColor);
+    color: aliceblue;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+a {
+    color: var(--mainColor)!important;
+    font-weight: 400 o !important;
+}
+
+a:hover {
+    color: var(--secondaryColor) !important;
+    font-weight: 400 !important;
+}
+
+p {
+    font-size: 20px;
+}
+
+
+
+
+
+/***Nav***/
+
+.navbar-link a.navbar-item {
+    color: var(--mainColor);
+}
+
+.navbar-link a.navbar-item:hover {
+    color: var(--mainColor )!important;
+}
+
+
+/***Intro Text***/
+.introText{
+    margin-bottom: 50px;
+}
+
+
+/***Sections***/
+.card{
+    border-radius: 50px;
+    -webkit-box-shadow: 10px 10px 6px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 6px -12px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 6px -12px rgba(0,0,0,0.75);
+}
+
+.pageSections {
+    margin-top: 25px;
+}
+
+
+
